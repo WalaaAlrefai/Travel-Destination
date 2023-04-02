@@ -1,11 +1,19 @@
+
 function Tour(props){
     <>
-<div>
-    <h4>{props.name}</h4>
-    <img src={props.image} alt={props.name} />
-    <h4>price:{props.price}</h4>
-</div>
-{document.write("\n")}
+
+
+{
+        <div>
+         <h2>{props.tourName}</h2>
+         <img src={props.imageUrl} alt={props.tourName}/>
+         <h3> {props.tourPrice}</h3>
+         </div>
+
+        }
+
+
+
 </>
 }
 export default Tour
