@@ -7,15 +7,7 @@ function App() {
   console.log(tourData);
   return (
   <>
-  {/* <Home /> */}
-  {
-    tourData.map(element=>{
-      return(
-      <Home tourName={element.name} imageUrl={element.image} tourPrice={element.price}/>
-      );
-    })
-
-  }
+  <Home data={tourData}/>
 
   </ > 
   )
