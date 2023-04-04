@@ -1,0 +1,18 @@
+
+
+.card{
+
+    flex-direction: column;
+    width:35%;
+    background-color: rgb(0, 0, 0,0.5);
+}
+.card img{
+    width:99%;
+    color: bisque;
+    text-align: center;
+    
+}
+.card h2{
+    color: bisque;
+    text-align: center;
+}
