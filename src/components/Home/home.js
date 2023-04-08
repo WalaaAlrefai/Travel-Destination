@@ -7,22 +7,15 @@ import './home.css'
 
 function Home(props){
     const data=props.data;
+    console.log("data!!!!!1",data)
     return(
-        <section className="sec1">
+        
         <div className="home">
         <Header />
-   
-       { 
-       data.map(element=>{
-        return(
-        <Tours tourName={element.name} imageUrl={element.image} tourId={element.id} key={element.id}/>
-       )})
-
-        }
-        
+        <Tours data={props.data}/>
         <Footer />
         </div>
-        </section>
+      
     )
 }
 export default Home;

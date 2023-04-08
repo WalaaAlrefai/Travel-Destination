@@ -1,5 +1,6 @@
 function Tour(props){
-    let tour=props.data;
+    let tour=props;
+    console.log("here????????",tour)
   
 return(
 <>
