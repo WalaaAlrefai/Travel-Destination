@@ -6,7 +6,7 @@ function TourDetails(){
     let {id}=useParams();
     
     console.log("the data is",data,"the id",id)
-    const [readMore,setReadMore]=useState('false')
+    const [readMore,setReadMore]=useState(false)
     return (<>
     {
         data.map(element=>{
